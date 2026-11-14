@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The student portfolio of Alex Morgan — a curious computer science student who likes making useful things for the web."
+    />
+    <meta name="theme-color" content="#f6f5f0" />
+    <title>Destiny Achi — Student Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Destiny Achi, home">
+        <span class="wordmark-mark">a<span>.</span></span>
+        <span class="wordmark-name">DESTINY ACHI</span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Selected work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact">
+        Let’s talk <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span> STUDENT · MAKER · CURIOUS HUMAN
+          </p>
+          <h1 id="hero-title">
+            Learning out loud.<br />Building <span>with purpose.</span>
+          </h1>
+          <p class="hero-description">
+            Hey, I’m Destiny — a software engineering student turning class
+            notes, late-night ideas, and small everyday problems into things you
+            can use.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work"
+              >Explore my work <span aria-hidden="true">↓</span></a
+            >
+            <a class="text-link" href="#about"
+              >A little about me <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="hero-footnote">
+            <span>BASED IN THE PACIFIC NORTHWEST</span>
+            <span>OPEN TO INTERNSHIPS <i class="status-dot"></i></span>
+          </div>
+        </div>
+        <div
+          class="hero-art"
+          aria-label="A playful illustration of a student workspace"
+        >
+          <div class="art-grid"></div>
+          <div class="art-note art-note-top">
+            <span>currently into</span><strong>learning by doing ↘</strong>
+          </div>
+          <div class="portrait-card">
+            <div class="portrait-sun"></div>
+            <div class="portrait-shape portrait-shape-one"></div>
+            <div class="portrait-shape portrait-shape-two"></div>
+            <div class="portrait-person">
+              <div class="person-hair"></div>
+              <div class="person-face">
+                <span class="person-eye"></span
+                ><span class="person-smile"></span>
+              </div>
+              <div class="person-shirt"><span>DA</span></div>
+            </div>
+            <div class="portrait-caption">
+              <span>FIG. 01</span><span>THE WORK IN PROGRESS</span>
+            </div>
+          </div>
+          <div class="art-note art-note-bottom">
+            <span>IDEA NO. 014</span><strong>Make it useful.</strong>
+          </div>
+          <span class="art-spark" aria-hidden="true">✳</span>
+          <span class="art-cross" aria-hidden="true">+</span>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Areas of interest">
+        <div class="ticker-track">
+          <span>FRONT-END DEVELOPMENT</span><i>✳</i
+          ><span>HUMAN-CENTERED DESIGN</span><i>✳</i>
+          <span>CREATIVE PROBLEM-SOLVING</span><i>✳</i
+          ><span>ALWAYS LEARNING</span><i>✳</i>
+          <span>FRONT-END DEVELOPMENT</span><i>✳</i
+          ><span>HUMAN-CENTERED DESIGN</span><i>✳</i>
+          <span>CREATIVE PROBLEM-SOLVING</span><i>✳</i
+          ><span>ALWAYS LEARNING</span><i>✳</i>
+        </div>
+      </section>
+
+      <section
+        class="about section-wrap"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="section-label">
+          <span>01 / A LITTLE INTRO</span
+          ><span>THE PERSON BEHIND THE PIXELS</span>
+        </div>
+        <div class="about-content">
+          <h2 id="about-title">
+            A student with a soft spot for <span>the details.</span>
+          </h2>
+          <div class="about-copy">
+            <p>
+              Hello! I'm a software engineering student at Miva with a passion
+              for turning logic into creative solutions. I am actively working
+              toward a future in web and game development, driven by a love for
+              building interactive apps and immersive environments.
+            </p>
+            <p>
+              My technical toolkit includes frontend fundamentals, TypeScript,
+              React, Python, Figma and backend essentials like Node.js. I
+              believe the best way to learn is to make something, share it, and
+              make it a little better.
+            </p>
+            <p>
+              Outside of coding, I enjoy catching up on football matches,
+              keeping up with chess tactics continuously expanding my
+              problem-solving skills or trying to perfect my very average
+              coffee.
+            </p>
+            <a class="text-link" href="#contact"
+              >More about me over coffee <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <div class="skills-row">
+          <div class="skills-heading">THINGS I’M<br />EXPLORING</div>
+          <div class="skill-list">
+            <span>HTML & CSS</span><span>JavaScript</span><span>React</span
+            ><span>Responsive design</span> <span>Accessibility</span
+            ><span>Python</span><span>Node</span><span>Figma</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-wrap">
+          <div class="section-label">
+            <span>02 / SELECTED WORK</span
+            ><span>SMALL PROJECTS, BIG LEARNING</span>
+          </div>
+          <div class="work-heading">
+            <h2 id="work-title">Things I’ve <span>made.</span></h2>
+            <p>
+              A few experiments from my journey so far.<br />Each one taught me
+              something new.
+            </p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-featured">
+              <div class="project-visual checker-visual">
+                <div class="visual-topline">
+                  <span>PROJECT 001</span
+                  ><span>BUILT WITH HTML · CSS · JS</span>
+                </div>
+                <div class="checker-window">
+                  <div class="window-dots">
+                    <i></i><i></i><i></i><span>palindrome-checker</span>
+                  </div>
+                  <div class="checker-body">
+                    <span class="checker-kicker">A LITTLE WORDPLAY</span>
+                    <h3>Palindrome<br />Checker</h3>
+                    <p>Is it the same backwards?</p>
+                    <form id="palindrome-form" class="checker-form" novalidate>
+                      <label class="visually-hidden" for="number"
+                        >Enter a word or number</label
+                      >
+                      <input
+                        id="number"
+                        type="text"
+                        autocomplete="off"
+                        placeholder="racecar"
+                      />
+                      <button
+                        type="submit"
+                        aria-label="Check whether the text is a palindrome"
+                      >
+                        ↗
+                      </button>
+                    </form>
+                    <p
+                      id="result"
+                      class="checker-result"
+                      role="status"
+                      aria-live="polite"
+                    ></p>
+                  </div>
+                </div>
+                <span class="checker-decoration" aria-hidden="true"
+                  >a b c<br />c b a</span
+                >
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Palindrome Checker</h3>
+                  <p>
+                    A tiny interactive tool for the words that read the same
+                    both ways.
+                  </p>
+                </div>
+                <span class="project-number">01</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div
+                class="project-visual garden-visual"
+                style="background-color: rgb(254, 185, 160)"
+              >
+                <div class="visual-topline">
+                  <span>PROJECT 002</span><span>DESIGN + FRONT-END</span>
+                </div>
+                <video
+                  src="assets/chrome_L4V5As1HFl.mp4"
+                  width="400"
+                  height="250"
+                  autoplay
+                  muted
+                  loop
+                  playinline
+                ></video>
+
+                <a
+                  href="https://destine00.github.io/Triangle-checker/"
+                  target="_blank"
+                  style="
+                    font-family: monospace;
+                    font-weight: 100;
+                    position: relative;
+                    bottom: 10px;
+                  "
+                  >Click here to view project</a
+                >
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Triangle Checker</h3>
+                  <p>A quick program for checking for a right angle triangle</p>
+                </div>
+                <span class="project-number">02</span>
+              </div>
+            </article>
+            <article class="project-card">
+              <div
+                class="project-visual garden-visual"
+                style="background-color: #d0d0e2"
+              >
+                <div class="visual-topline">
+                  <span>PROJECT 003</span><span>DESIGN + FRONT-END + AJAX</span>
+                </div>
+                <video
+                  src="assets/chrome_eKMSNwlb14.mp4"
+                  width="400"
+                  height="250"
+                  autoplay
+                  muted
+                  loop
+                  playinline
+                ></video>
+
+                <a
+                  href="https://destine00.github.io/AJAX-Dad-Jokes/"
+                  target="_blank"
+                  style="
+                    font-family: monospace;
+                    font-weight: 100;
+                    position: relative;
+                    bottom: 10px;
+                  "
+                  >Click here to view project</a
+                >
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Dad Joke Generator</h3>
+                  <p>
+                    A fun project that generates dad jokes with a click of a
+                    button
+                  </p>
+                </div>
+                <span class="project-number">03</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="task-section">
+        <div class="task-container">
+          <div class="header">
+            <span>03 / Interactive Project</span>
+            <h2>Task Manager</h2>
+          </div>
+          <div class="input-group">
+            <input
+              type="text"
+              id="taskInput"
+              placeholder="e.g Make my coffee"
+            />
+            <button class="add-btn" id="addTaskBtn">Add</button>
+          </div>
+          <ul class="task-list" id="taskList"></ul>
+          <p class="empty-state" id="emptyState">No tasks yet. Add one above</p>
+        </div>
+      </section>
+      <section
+        class="contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="section-wrap">
+          <div class="section-label">
+            <span>04 / YOUR TURN</span><span>LET’S MAKE SOMETHING GOOD</span>
+          </div>
+          <div class="contact-content">
+            <p class="eyebrow">HAVE A PROJECT, AN IDEA, OR A BOOK TIP?</p>
+            <h2 id="contact-title">
+              I’d love to<br /><span>hear from you.</span>
+            </h2>
+            <form class="portfolio-form" id="contact-form">
+              <label for="name"
+                >Your Name
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John Doe"
+                />
+              </label>
+              <label for="email">
+                Email Address
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="johndoe@example.com"
+                />
+              </label>
+              <label for="tel">
+                Phone Number
+                <input
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  maxlength="11"
+                  placeholder="07012345678"
+                />
+              </label>
+              <label for="message"
+                >Tell me what you think
+                <textarea name="message" id="message"></textarea>
+              </label>
+              <button type="submit" id="submit-btn">Submit</button>
+            </form>
+            <a class="contact-link" href="mailto:hello@example.com"
+              >hello@example.com <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <footer class="site-footer">
+            <a class="wordmark footer-wordmark" href="#home"
+              ><span class="wordmark-mark">a<span>.</span></span
+              ><span class="wordmark-name">DESTINY ACHI</span></a
+            >
+            <span>MADE WITH CURIOSITY & A LOT OF COFFEE</span>
+            <span>© <span id="current-year"></span> DESTINY ACHI</span>
+          </footer>
+        </div>
+      </section>
+    </main>
+    <script src="script.js" defer></script>
+    <script
+      type="text/javascript"
+      href="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>
